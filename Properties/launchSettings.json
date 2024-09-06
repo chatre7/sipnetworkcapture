@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SIPNetworkCapture": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

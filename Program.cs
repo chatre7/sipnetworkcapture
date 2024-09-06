@@ -38,7 +38,7 @@ namespace SIPNetworkCapture
                     i++;
                 }
 
-                var network = devices.FirstOrDefault(x => x.Description == "Intel(R) Ethernet Connection (13) I219-LM");
+                var network = devices.FirstOrDefault(x => x.Description == DeviceName);
                 if (network != null)
                 {
                     network.OnPacketArrival += Network_OnPacketArrival;

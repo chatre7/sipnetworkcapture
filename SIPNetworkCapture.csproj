@@ -25,4 +25,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="linux-x64\" />
+  </ItemGroup>
+
 </Project>
